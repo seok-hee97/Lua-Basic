@@ -7,3 +7,9 @@ https://www.stechstar.com/user/zbxe/min30/55466
 
 - 원문   
 https://tylerneylon.com/a/learn-lua/
+
+
+
+- Programming in Lua (first edition)
+https://www.lua.org/pil/contents.html#1
+
