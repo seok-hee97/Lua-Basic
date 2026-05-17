@@ -1,4 +1,4 @@
--- THe table type implements associative array
+-- The table type implements associative arrays.
 -- An associative array is an array that can be indexed not only with numbers,
 
 
@@ -20,18 +20,18 @@ print(a["x"])    --> 11
 
 a = {}          -- create a table and store its reference in 'a'
 a["x"] = 10
-b = a           -- 'b' referes to the same tables as 'a'
+b = a           -- 'b' refers to the same tables as 'a'
 print(b["x"])   --> 10
 b["x"] = 20
 print(a["x"])   --> 20
 
-a = nil     -- now only 'b' still referes to the table
+a = nil     -- now only 'b' still refers to the table
 b = nil     -- now there are no references left to the table
 
 
 
--- Each table my store values with different types of indices and
--- it grows as it needs to accommodate entries:
+-- Each table may store values with different types of indices, and
+-- it grows as it needs to accommodate new entries:
 
 a = {}          -- empty table
 -- create 1000 new entries

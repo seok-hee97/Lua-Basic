@@ -1,5 +1,5 @@
--- Lua가 실행하는 각 코드 조각은 청크
--- 더 구체적으로 말하면 청크는 단순히 일련의 명령문
+-- Each piece of code that Lua executes is called a chunk.
+-- More specifically, a chunk is simply a sequence of statements.
 
 
 a = 1
@@ -11,7 +11,3 @@ b = a*2;
 a = 1; b = a*2
 
 a = 1 b = a*2 -- ugly, but valid
-
-
-
-

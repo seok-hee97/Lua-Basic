@@ -7,7 +7,7 @@ print(b)       --> another string
 
 
 
--- excap  sequence
+-- escape sequence
 
 -- \a	bell
 -- \b	back space

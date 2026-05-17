@@ -32,8 +32,8 @@ tab = {sin(1), sin(2), sin(3), sin(4),
 a = {}; a.x =0; a.y=0
 
 
--- No mattter what constructor we use to create a table, we can always add
---  and remove other fileds od nay type to it:
+-- No matter what constructor we use to create a table, we can always add
+--  and remove other fields of any type to it:
 
 w = {x=0, y=0, label="console"}             -- label??
 x = {sin(0), sin(1), sin(2)}
